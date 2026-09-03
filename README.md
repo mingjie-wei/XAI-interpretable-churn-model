@@ -14,7 +14,7 @@ Briefly describe the Telco Customer Churn dataset and the churn prediction task.
 |---|---|---|---|
 | Linear regression |  |  |  |
 | Logistic regression |  |  |  |
-| GAM |  |  |  |
+| GAM |  Independence, Multicollinearity, Normality, Linearity, Homoscedasticity | Smmoothness and basis functions are two other assumptions which I looked at, since they are specific to GAM. I found that the 'pygam' library handles those assumptions. | Multicollinearity is violated, because the VIFs for some of the predictors are bigger. |
 
 ## Model Comparison
 
@@ -22,7 +22,7 @@ Briefly describe the Telco Customer Churn dataset and the churn prediction task.
 |---|---|---|---|
 | Linear regression |  |  |  |
 | Logistic regression |  |  |  |
-| GAM |  |  |  |
+| GAM | 80% accuracy, but the recall is 54% | It is weak, because interpreting the GAM model is very complex | It is weak, because interpreting the GAM model is very complex |
 
 ## Recommendation
 
