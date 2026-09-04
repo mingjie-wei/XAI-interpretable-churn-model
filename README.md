@@ -1,6 +1,6 @@
 # XAI-interpretable-churn-model
 
-# Team Name:
+# Team Name: dataxplorers
 
 ## Contributors
 
